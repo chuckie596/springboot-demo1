@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @date 19-3-19
  */
 @RestController
-public class HelloSpringBoot {
+public class HelloSpringBootController {
     @Autowired
     private StudentDao studentDao;
 //    @RequestMapping(path = {"/helloSpringBoot"})
